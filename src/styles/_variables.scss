@@ -1,0 +1,37 @@
+$primary-blue: #0064b5;
+$primary-light-blue: #519bff;
+$primary-sky-blue: #aaceff;
+$primary-baby-blue: #e3efff;
+
+$black: #000000;
+$dark-gray: #606162;
+$gray: #a5a5a5;
+$light-gray: #d9d9d9;
+$white: #ffffff;
+
+$font-family-sans-serif:
+  // Design System
+  'SF Pro Text',
+  // Cross-platform generic font family (default user interface font)
+  system-ui,
+  // Safari for macOS and iOS (San Francisco)
+  -apple-system,
+  // Windows
+  'Segoe UI',
+  // Android
+  Roboto,
+  // Basic web fallback
+  'Helvetica Neue',
+  Arial,
+  // Linux
+  'Noto Sans',
+  'Liberation Sans',
+  // Sans serif fallback
+  sans-serif,
+  // Emoji fonts
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol',
+  'Noto Color Emoji' !default;
+
+$font-family-base: $font-family-sans-serif !default;
